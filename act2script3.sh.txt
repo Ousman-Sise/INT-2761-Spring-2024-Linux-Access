@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo -e "Enter your name:\c"
+read Name
+
+echo -e "Enter your current time:\c"
+read Time
+
+if [$time -lt 1200];
+then
+        echo -e "Good morning, $NAME"
+if [$time -gt 1700];
+then
+        echo -e "Good evening, $NAME"
+if [$time -gt 1200 -lt 1700];
+then
+        echo -e "Good afterno.on, $NAME"
+fi
